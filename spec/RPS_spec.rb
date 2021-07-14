@@ -22,4 +22,10 @@ describe('RPS#wins?') do
     game = RPS.new()
     expect(game.wins?("paper", "rock")).to(eq(true))
   end
+
+  it("increases tally by one if paper is the object and rock is the argument") do
+    game = RPS.new()
+    game.wins?("paper", "rock")
+    expect(game.total_wins).to(eq(1))
+  end
 end
