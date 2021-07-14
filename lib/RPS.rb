@@ -7,8 +7,14 @@ class RPS
       true
     elsif (player1 === "scissors") && (player2 === "paper")
       true
+    elsif (player1 === "paper") && (player2 === "rock")
+      true
     else
       false
     end
   end
 end
+
+
+#tally wins, ties, and losses
+#randomness
