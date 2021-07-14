@@ -21,8 +21,8 @@ A rock-paper-scissors game application under the Ruby programming language.
 ```
 git clone https://github.com/dqveha/Rock-Paper-Scissors.git
 ```
-4) Open the `Rock-Paper-Scissors` directory using Visual Studio Code
-5) To run program through RSpec within Docker, type down each line in your terminal and press enter:
+3) Open the `Rock-Paper-Scissors` directory using Visual Studio Code
+4) To run program through RSpec within Docker, type down each line in your terminal and press enter:
 ```
 docker-compose down
 docker-compose up --build
